@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vaibhavkr1710.github.io/portfolio/sitemap.xml
