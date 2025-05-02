@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Portfolio # the website title (if blank, full name will be used instead)
 first_name: Vaibhav 
 middle_name:
 last_name: Kumar
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+ I am always open to opportunities
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   portfolio website 
 footer_text: >
@@ -88,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Portfolio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for Portfolio
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,13 +123,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -193,6 +193,17 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _bibliography
+  - _books/
+  - _news/
+  - _posts/
+  - _pages/blog.md
+  - _pages/books.md
+   # - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/publications.md
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -628,7 +639,7 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resumeV.json # it can also be an url
 
 jsonresume:
   - basics

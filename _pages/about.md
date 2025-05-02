@@ -2,33 +2,47 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.atlassian.com/devops/what-is-devops/devops-engineer'>DevSecOps.</a> Systems thinker. Rationalist in debugging and design.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profilepicture.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Rohini, New Delhi 110085</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi, I'm _Vaibhav_. I'm 24 years old, originally from an overlooked corner of the map, and a Computer Science Engineering student with a deep curiosity for how things work—and how to make them better. I’ve broken pipelines, secured them, analyzed vulnerabilities, and occasionally built things that actually worked. After some trial, error, and SonarQube warnings, I’ve come to one conclusion: _technology is always evolving—and so am I_.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<br />
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Luckily, iteration is the point—and I’m here to iterate better every day.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<br />
+
+I’m focused on building secure, scalable systems while learning to test, break, and harden them again. My experience spans several areas, and I’ve developed a balanced mindset between curiosity, discipline, and the occasional Stack Overflow deep-dive. Some of the things I’ve done include:
+
+- **DevSecOps & Security Tools** – Hands-on with tools like **Maven**, **SonarQube**, and **Snyk**, working on identifying and mitigating vulnerabilities in CI/CD workflows.
+- **Software Testing & QA** – Currently training in test automation, software quality assurance, and cloud infrastructure fundamentals.
+- **Cloud & DevOps Learning Path** – Exploring **AWS**, containerization, CI/CD pipelines, and secure deployment practices to build a future-proof skillset.
+
+<br />
+
+You’ll learn more about me as you explore this site—bugs and all.
+
+
